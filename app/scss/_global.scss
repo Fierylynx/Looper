@@ -1,0 +1,86 @@
+body {
+  font-family: 'Mplus1p', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: $headers;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.blockquote {
+  max-width: 1015px;
+  
+  &__content p{
+    padding: 100px 200px 100px 100px;
+    margin-bottom: 54px;
+    font-family: 'NoticiaText', sans-serif;
+    font-size: 22px;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: $white;
+    background-color: $secondary_100;
+  }
+
+  &__cite {
+    padding-left: 100px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-style: normal;
+  }
+  
+  &__author {
+    font-weight: 800;
+    color: $primary;
+  }
+
+  &__image {
+    position: absolute;
+    bottom: 0;
+    right: 350px;
+  }
+}
+
+.contact {
+
+  & li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  & a {
+    padding-left: 30px;
+    font-weight: 400;
+  }
+}
+
+.social {
+
+  &__list {
+    display: flex;
+
+    & li:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+}
+
+.title {
+  font-size: 45px;
+  line-height: 1.5;
+  font-weight: 500;
+  
+  &--subtitle {
+    margin-bottom: 18px;
+    display: block;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 800;
+    letter-spacing: 0.25em;
+    color: $primary;
+    text-transform: uppercase;
+  }
+}
